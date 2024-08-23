@@ -1,2 +1,29 @@
 # Kant
-a static-type dsl with partial eval for Minecraft, a better customizing experience.
+> 静态类型，部分求值的DSL
+> 
+## 介绍
+
+让你的Java/Kotlin项目拥有更好的自定义体验。
+
+目标：替代Yaml，Json等配置文件，让配置更加灵活，更加强大。
+
+- 基于静态类型，可配备IDE提示，自动补全，类型检查等功能。
+- 基于部分求值，可以整出各种花活，将代码优化到极致。
+- 可以与JVM生态完美结合，无缝调用Java/Kotlin项目。
+- 语法简洁，易于上手。（难度与JavaScript相当）
+- 良好的工程设计，让你的Java/Kotlin项目能够轻松接入。
+
+## TODO LIST
+
+- [x] 语法设计
+- [x] 词法分析
+- [x] 语法分析
+- [x] 语义分析
+  - [✓] 类型系统
+  - [x] 类型推导
+  - [x] 类型检查
+- [x] 部分求值
+  - [x] 常量折叠
+  - [x] 函数内联
+  - [x] 动态优化
+
